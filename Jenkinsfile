@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_IMAGE = 'satyamdevang/calculator'
         IMAGE_TAG    = "${env.BUILD_NUMBER}"
-        NOTIFY_EMAIL = '<your-email>'
+        NOTIFY_EMAIL = 'satyam.dewangan@iiitb.ac.in'
         APP_URL      = 'http://localhost:8081'   // Nginx in front of the replicas
     }
 
